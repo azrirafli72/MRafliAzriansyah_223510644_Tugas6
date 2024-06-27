@@ -1,19 +1,14 @@
 {
-    "articles": [
-        {
-            "id": "1",
-            "title": "judul",
-            "content": "Ini Content"
-        },
-        {
-            "id": "2",
-            "title": "judul 2",
-            "content": "Ini Content 2"
-        },
-        {
-            "id": "3",
-            "title":"judul 3",
-            "content": "Ini Content 3"
-        }
-    ]
+  "articles": [
+    {
+      "id": "1",
+      "title": "Laskar Pelangi",
+      "content": "Ini menceritakan tentang pemuda pemudi yang belajar di sekolah yang kurang bagus, tetapi mereka tetap berusaha untuk meraih cita cita mereka di sekolah tersebut dan berjuang bersama demi masa depan yang cerah!."
+    },
+    {
+      "id": "2",
+      "title": "Kuyang di Malam Hari",
+      "content": "Ini Content menceritakan tentang kisah kuyang yang berjalan di malam hari dalam rangka untuk mencari kepala anak kecil. Mengerikan bukan??."
+    }
+  ]
 }
