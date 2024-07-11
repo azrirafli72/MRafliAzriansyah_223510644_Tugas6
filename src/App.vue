@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-    <h1>Article Management by RafliAzri</h1>
+    <h1>Simple Article Management</h1>
     <form @submit.prevent="save" class="form-container">
       <input type="text" v-model="form.title" placeholder="Title" class="form-input" required /><br />
       <textarea v-model="form.content" placeholder="Content" class="form-textarea" required></textarea><br />
@@ -49,7 +49,7 @@ export default {
 
     async function save() {
       try {
-        const url = form.id ? `http://localhost:3000/articles/${form.id}` : 'http://localhost:3000/articles';
+        const url = form.id ? `http://localhost:3000/articles${form.id}` : 'http://localhost:3000/articles';
         const method = form.id ? 'put' : 'post';
 
         if (!form.id) {
@@ -102,6 +102,11 @@ export default {
 </script>
 
 <style>
+body {
+  background: url('assets/Gambar.jpg') no-repeat center center;
+  background-size: cover;
+}
+
 .app-container {
   max-width: 600px;
   margin: 0 auto;
